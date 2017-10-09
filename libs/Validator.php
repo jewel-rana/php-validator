@@ -20,6 +20,10 @@ if( ! class_exists( 'Validator' ) ) {
 			self::$rules = $rules;
 		}
 
+		public static function test(){
+			return true;
+		}
+
 		public static function run() {
 
 			//process the rules
