@@ -8,7 +8,7 @@ if( ! class_exists( 'Validator' ) ) {
 		protected static $error_suffix = '</p>';
 
 		public function __construct() {
-			
+			parent::__construct();
 		}
 
 		public function set_delimiter( $prefix = '<p>', $suffix = '</p>' ) {
